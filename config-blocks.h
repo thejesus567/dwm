@@ -18,6 +18,6 @@
 
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
-        X("🔋 ", "cat /sys/class/power_supply/BAT0/capacity", 15, 9) \    
+        X("🔋 ", "cat /sys/class/power_supply/BAT0/capacity", 15, 9) \
     	X("🕒 ", "date '+%a %d %b %I:%M %p'", 1, 10)
 #endif  // CONFIG_H
